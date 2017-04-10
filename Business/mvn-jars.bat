@@ -1,0 +1,2 @@
+call mvn install:install-file -Dfile=bin/commons-httpclient-3.1.jar -DgroupId=org.apache.commons.httpclient -DartifactId=httpclient -Dversion=3.1 -Dpackaging=jar
+call mvn install:install-file -Dfile=bin/xmlutil.jar -DgroupId=com.zte.appstore.xml -DartifactId=appstore -Dversion=1.0 -Dpackaging=jar
